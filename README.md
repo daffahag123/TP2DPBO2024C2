@@ -25,7 +25,7 @@ Program yang telah dibuat adalah sebuah aplikasi Java GUI untuk manajemen data m
    - Tombol "Delete" akan menghapus data dalam database yang dipilih dalam tabel.
    - Tombol "Clear" akan menghapus semua input di formulir tanpa membuat perubahan pada tabel.
 
-Terdapat beberapa fitur yang telah saya tambahkan ke dalam program ini untuk meningkatkan fungsionalitas aplikasi, diantaranya:
+Untuk meningkatkan fungsionalitas aplikasi, saya telah menambahkan beberapa fitur yang dapat membantu pengguna dalam mengelola data mahasiswa dengan lebih efisien dan aman, diantaranya:
 1. Penambahan prompt konfirmasi sebelum melakukan operasi delete.
    Fitur ini memastikan untuk menghindari penghapusan data yang tidak disengaja. Ketika pengguna mengklik tombol "Delete", akan muncul jendela konfirmasi dengan pesan "Hapus data?". Pengguna akan diberikan opsi untuk memilih "Yes" atau "No". Jika pengguna memilih "Yes", data mahasiswa yang dipilih akan dihapus dari database.
    
