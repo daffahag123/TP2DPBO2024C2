@@ -37,3 +37,16 @@ Untuk meningkatkan fungsionalitas aplikasi, saya telah menambahkan beberapa fitu
 3. Pengecekan duplikasi NIM sebelum operasi insert
 
    Fitur ini menambahkan pengecekan menggunakan method cekNIM() untuk memastikan NIM yang akan dimasukkan belum ada dalam database. Jika NIM sudah ada, pesan error akan ditampilkan.
+
+# Alur Program
+1. Program dimulai dengan menampilkan sebuah window berukuran 480x560 piksel yang berisi form untuk memasukkan data mahasiswa.
+2. Pengguna dapat mengisi form dengan memasukkan NIM, nama, jenis kelamin, dan kelas mahasiswa.
+   - Jika pengguna memasukkan data baru tanpa mengisi seluruh input, tampilkan pesan error.
+   - Jika NIM yang dimasukkan sudah ada dalam database, tampilkan pesan error. 
+4. Setelah pengguna mengisi form, klik tombol "Add" untuk memasukkan data mahasiswa baru ke dalam tabel dan database. Formulir dikosongkan kembali setelah data berhasil ditambahkan. Kemudian menampilkan feedback berisi "Data berhasil ditambahkan!".
+5. Jika pengguna mengklik salah satu baris di tabel, informasi dari baris tersebut akan dimuat ke dalam form. Setelah itu tombol "Update" akan muncul menggantikan tombol "Add".
+7. Jika pengguna mengklik tombol "Update", data mahasiswa yang ada di tabel dan database akan diperbarui sesuai dengan informasi yang dimasukkan ke dalam form. Kemudian menampilkan feedback berisi "Data berhasil diubah!".
+   - Jika pengguna mengubah data dan ada input yang kosong, tampilkan pesan error.
+   - Jika pengguna ingin mengedit data, NIM tidak bisa diubah.
+9. Jika pengguna mengklik tombol "Cancel", semua input di form akan dihapus.
+10. Jika pengguna mengklik tombol "Delete", muncul konfirmasi untuk menghapus data. Pengguna memilih "Yes" untuk menghapus data, atau "No" untuk membatalkan operasi. Setelah dihapus, data berhasil dihapus dari tabel dan database. Kemudian menampilkan feedback berisi "Data berhasil dihapus!".
