@@ -52,4 +52,6 @@ Untuk meningkatkan fungsionalitas aplikasi, saya telah menambahkan beberapa fitu
 10. Jika pengguna mengklik tombol "Delete", muncul konfirmasi untuk menghapus data. Pengguna memilih "Yes" untuk menghapus data, atau "No" untuk membatalkan operasi. Setelah dihapus, data berhasil dihapus dari tabel dan database. Kemudian menampilkan feedback berisi "Data berhasil dihapus!".
 
 # Dokumentasi Program
+https://github.com/daffahag123/TP2DPBO2024C2/assets/135239333/15f8d013-3914-4b31-9d88-407fd64519db
+
 
