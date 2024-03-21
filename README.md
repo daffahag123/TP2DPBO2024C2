@@ -50,3 +50,6 @@ Untuk meningkatkan fungsionalitas aplikasi, saya telah menambahkan beberapa fitu
    - Jika pengguna ingin mengedit data, NIM tidak bisa diubah.
 9. Jika pengguna mengklik tombol "Cancel", semua input di form akan dihapus.
 10. Jika pengguna mengklik tombol "Delete", muncul konfirmasi untuk menghapus data. Pengguna memilih "Yes" untuk menghapus data, atau "No" untuk membatalkan operasi. Setelah dihapus, data berhasil dihapus dari tabel dan database. Kemudian menampilkan feedback berisi "Data berhasil dihapus!".
+
+# Dokumentasi Program
+
