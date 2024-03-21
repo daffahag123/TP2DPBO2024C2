@@ -30,7 +30,10 @@ Untuk meningkatkan fungsionalitas aplikasi, saya telah menambahkan beberapa fitu
 
    Fitur ini memastikan untuk menghindari penghapusan data yang tidak disengaja. Ketika pengguna mengklik tombol "Delete", akan muncul jendela konfirmasi dengan pesan "Hapus data?". Pengguna akan diberikan opsi untuk memilih "Yes" atau "No". Jika pengguna memilih "Yes", data mahasiswa yang dipilih akan dihapus dari database.
    
-3. Validasi input sebelum operasi insert dan update.
+2. Validasi input sebelum operasi insert dan update.
+   
    Fitur ini memastikan tidak ada field yang kosong sebelum menjalankan operasi INSERT atau UPDATE. Jika ada field yang kosong, pesan error akan ditampilkan.
    
-5. Pengecekan duplikasi NIM sebelum operasi insert
+3. Pengecekan duplikasi NIM sebelum operasi insert
+
+   Fitur ini menambahkan pengecekan menggunakan method cekNIM() untuk memastikan NIM yang akan dimasukkan belum ada dalam database. Jika NIM sudah ada, pesan error akan ditampilkan.
